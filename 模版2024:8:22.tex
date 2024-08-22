@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+
+\usepackage[fontset=windows, zihao=-4]{ctex}
+
+%\usepackage[left=20mm,right=20mm,top=25mm, bottom=15mm]{geometry}
+\usepackage[left=1.25in,right=1.25in, top=1in,bottom=1in]{geometry}
+
+\usepackage[colorlinks=true,
+pdfstartview=FitH,
+linkcolor=blue,
+anchorcolor=violet,
+citecolor=blue]{hyperref}
+
+%\usepackage{soul}
+
+%\renewcommand{\normalsize}{\fontsize{10.5pt}{12pt}\selectfont}
+
+
+\usepackage{ulem}
+
+\usepackage[hyperref = true, 
+backend=biber,
+citestyle=gb7714-2015ay, 
+url = false, 
+doi = false,
+gbnamefmt=lowercase, 
+bibstyle = gb7714-2015,
+gbcitelocal=chinese]{biblatex} %biblatex宏包的参考文献数据源加载方式
+\addbibresource[location=local]{Patrol-bib.bib}
+\usepackage[ruled,linesnumbered]{algorithm2e}
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\title{标题暂定}
+
+
+\begin{document}
+	
+	%\tableofcontents
+	
+	
+	
+
+	
+	
+	\newpage
+	
+	
+	\printbibliography[heading=bibliography,title=参考文献]
+\end{document}
